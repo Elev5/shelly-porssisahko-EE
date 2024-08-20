@@ -550,7 +550,7 @@ function getPrices(dayIndex) {
     let end = start.replace("T00:00:00", "T23:59:59");
 
     let req = {
-      url: "https://dashboard.elering.ee/api/nps/price/csv?fields=fi&start=" + start + "&end=" + end,
+      url: "https://dashboard.elering.ee/api/nps/price/csv?fields=ee&start=" + start + "&end=" + end,
       timeout: 5,
       ssl_ca: "*"
     };
